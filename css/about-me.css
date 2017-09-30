@@ -1,0 +1,10 @@
+img {
+  height: 200px;
+  width: 300px;
+  border-radius: 50%;
+}
+
+.col-md-6 .col-lg-3 {
+  width: 200px;
+  height: 200px;
+}
