@@ -1,41 +1,55 @@
 <!DOCTYPE html>
 <html>
+
+<!--links-->
 <head>
-  <link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css">
-  <link rel="stylesheet" href="vendor/font-awesome/css/font-awesome.min.css">
-  <title> HTML Basics </title>
-<style>
-  <link href="about-me.css" type="text/css" rel="stylesheet">
-</style>
+    <title> About Me </title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="/css/aboutme.css">
 </head>
-<img src="https://scontent-lga3-1.xx.fbcdn.net/v/t1.0-9/18739719_1732414590116933_8870906014277576982_n.jpg?oh=65ad3919ac1df8061291633877259e81&oe=5A42447F" alt="me">
-  <h1>
-      Hi, My name is John Doe and I am a Web Developer
+
+<div class="container">
+  <img src="https://scontent-lga3-1.xx.fbcdn.net/v/t1.0-9/18739719_1732414590116933_8870906014277576982_n.jpg?oh=65ad3919ac1df8061291633877259e81&oe=5A42447F" alt="me">
+</div>
+
+<div class="container">
+  <h1 class="text-center">
+      Hi, My name is Alexis Newton and I am a Web Developer
   </h1>
-  <body>
+</div>
+
+<body>
+  <div class="container">
     <h2>
     My Skills:
     </h2>
+
     <ul>
       <li> HTML </li>
       <li> CSS </li>
       <li> Java Script </li>
       <li> Python and Flask </li>
     </ul>
+
     <h3>
       Tools I Use:
     </h3>
+
     <ul>
       <li> <a href="https://atom.io" target="_blank">Atom</a> </li>
       <li> <a href="https://github.com" target="_blank">GitHub</a> </li>
       <li> <a href="https://aws.amazon.com" target="_blank">AWS</a> </li>
     </ul>
+
     <h4>
       My Short Bio:
     </h4>
+
     <p1>
       <a href="http://www.lipsum.com" target="_blank">Lorem Ipsum</a> is simply dummy text of the printing and typesetting industry.
     </p1>
+
     <p2>
       Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
@@ -44,32 +58,59 @@
       fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
       culpa qui officia deserunt mollit anim id est laborum.
     </p2>
+  </div>
+  
+<!--Portfolio-->
+  <div class="container">
     <h5>
       Portfolio
     </h5>
-  <div class="col-md-6 col-lg-3">
+
+  <div class="col-sm-6 col-md-3">
     <img class="img-fluid" src="/img/giraffe.jpeg" alt="a giraffe">
   </div>
-  <div class="col-md-6 col-lg-3">
-    <img class="img-fluid" src="/img/dog.jpeg" alt="a dog">
+  <div class="col-sm-6 col-md-3">
+    <img class="img-responsive" src="/img/dog.jpeg" alt="a dog">
   </div>
-  <div class="col-md-6 col-lg-3">
-    <img class="img-fluid" src="/img/penguin.jpeg" alt="a penguin">
+  <div class="col-sm-6 col-md-3">
+    <img class="img-responsive" src="/img/penguin.jpeg" alt="a penguin">
   </div>
-  <div class="col-md-6 col-lg-3">
-    <img class="img-fluid" src="/img/elephant.jpeg" alt="an elephant">
+  <div class="col-sm-6 col-md-3">
+    <img class="img-responsive" src="/img/elephant.jpeg" alt="an elephant">
   </div>
-  <div class="col-md-6 col-lg-3">
-    <img class="img-fluid" src="/img/goat.png" alt="a goat">
+  <div class="col-sm-6 col-md-3">
+    <img class="img-responsive" src="/img/goat.png" alt="a goat">
   </div>
-  <div class="col-md-6 col-lg-3">
-    <img class="img-fluid" src="/img/llama.jpeg" alt="a llama">
+  <div class="col-sm-6 col-md-3">
+    <img class="img-responsive" src="/img/llama.jpeg" alt="a llama">
   </div>
-  <div class="col-md-6 col-lg-3">
-    <img class="img-fluid" src="/img/cat.jpeg" alt="a cat">
+  <div class="col-sm-6 col-md-3">
+    <img class="img-responsive" src="/img/cat.jpeg" alt="a cat">
   </div>
-  <div class="col-md-6 col-lg-3">
-    <img class="img-fluid" src="/img/bunny.jpeg" alt="a bunny">
+  <div class="col-sm-6 col-md-3">
+    <img class="img-responsive" src="/img/bunny.jpeg" alt="a bunny">
+  </div>
   </div>
   </body>
+
+<!--footer-->
+
+<footer class="footer">
+  <div class="container">
+  <div class="social-media">
+    <ul class="fa-ul">
+      <li>
+        <a href="https://www.facebook.com/alexis.newton03"><i class="fa fa-facebook"></i></a>
+      </li>
+      <li>
+        <a href="https://www.instagram.com/__fignewton/"><i class="fa fa-instagram"></i></a>
+      </li>
+      <li>
+        <a href="https://www.pinterest.com/lexiemarie3/"><i class="fa fa-pinterest"></i></a>
+      </li>
+    </ul>
+  </div>
+</div>
+</footer>
+
 </html>
